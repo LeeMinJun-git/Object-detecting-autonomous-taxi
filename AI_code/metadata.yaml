@@ -1,0 +1,25 @@
+description: Ultralytics YOLO11n model trained on /home/doguen/RC_CAR_AI/datasets/rc_car_signs/data.yaml
+author: Ultralytics
+date: '2026-07-05T22:13:56.969657'
+version: 8.4.87
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: child_protect
+  1: child_protect_end
+  2: crosswalk
+  3: green_light
+  4: red_light
+  5: yellow_light
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false

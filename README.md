@@ -1,8 +1,5 @@
 # 🚖 Autonomous Driving Taxi & Edge AI System
 
-![Project Preview](https://via.placeholder.com/1000x400.png?text=Autonomous+Driving+Taxi+Project+Preview)
-*(※ 주행 시연 영상의 GIF나 자동차의 전체 시스템 사진을 여기에 추가하세요)*
-
 **On-Device AI Vision(Raspberry Pi)**과 **RTOS 기반 임베디드 제어 시스템(STM32)**을 결합한 실시간 자율주행 택시 플랫폼입니다. 도로 환경(스쿨존, 횡단보도, 신호등)을 실시간으로 인식하여 차량의 주행 상태를 판단하고, P-Control 기반의 조향 제어와 오도메트리(Odometry)를 통한 택시 과금 비즈니스 로직을 완벽하게 통합 수행합니다.
 
 ---

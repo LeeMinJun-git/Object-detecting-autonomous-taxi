@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['child_protect', 'child_protect_end', 'crosswalk', 'green_light', 'red_light', 'yellow_light']
+
+roboflow:
+  workspace: s-workspace-apies
+  project: rc_car-2pbqr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-apies/rc_car-2pbqr/dataset/1
